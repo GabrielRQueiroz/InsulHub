@@ -1,0 +1,53 @@
+header {
+   // Inside content
+   display: flex;
+   justify-content: space-between;
+   padding: -20px;
+   // Page positioning
+   position: -webkit-sticky; /* Safari */
+   position: sticky;
+   top: 0;
+   // Style
+   background-color: $darkenWhite;
+
+   #clock {
+      font-family: 'Arial', sans-serif;
+      color: #292929;
+      font-size: 56px;
+      text-align: center;
+      padding-top: 40px;
+      padding-bottom: 40px;
+   }
+
+   .logo {
+      overflow: hidden;
+      background-size: contain;
+      max-height: auto;
+   }
+
+   .icons {
+      
+
+      ul {
+         list-style-type: none;
+         margin: 0;
+         padding: 0;
+         overflow: hidden;
+
+         li {
+            float: left;
+
+            a {
+               display: block;
+               color: white;
+               align-content: center;
+               padding: 14px 16px;
+            }
+
+            a:hover {
+               background-color: $softBlue;
+            }
+         }
+      }      
+   }
+}

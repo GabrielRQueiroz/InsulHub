@@ -1,0 +1,60 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+}
+body h1 {
+  font-size: 3rem;
+  transition: all 300ms ease;
+}
+
+header {
+  /* Inside content */
+  display: flex;
+  justify-content: space-between;
+  padding: -20px;
+  /* Page positioning */
+  position: -webkit-sticky;
+  /* Safari */
+  position: sticky;
+  top: 0;
+  /* Style */
+  background-color: #e6e6e6;
+}
+header #clock {
+  font-family: "Arial", sans-serif;
+  color: #292929;
+  font-size: 56px;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+header .logo {
+  overflow: hidden;
+  background-size: contain;
+  max-height: auto;
+}
+header .icons ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+header .icons ul li {
+  float: left;
+}
+header .icons ul li a {
+  display: block;
+  color: white;
+  align-content: center;
+  padding: 14px 16px;
+}
+header .icons ul li a:hover {
+  background-color: #bbb7fa;
+}
+
+/*# sourceMappingURL=/js.55b70bcf.css.map */

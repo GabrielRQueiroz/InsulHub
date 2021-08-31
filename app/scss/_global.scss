@@ -1,0 +1,14 @@
+html{
+   box-sizing: border-box;
+   font-size: 100%;
+}
+
+body{
+   margin: 0;
+   padding: 20px;
+
+   h1{
+      font-size: 3rem;
+      transition: all 300ms ease;
+   }
+}
